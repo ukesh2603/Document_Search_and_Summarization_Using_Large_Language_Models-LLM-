@@ -1,0 +1,3 @@
+
+{"query":"What is machine learning?","reference_summary":"Machine learning is a branch of artificial intelligence that enables systems to learn patterns from data and use them to make predictions or decisions."}
+{"query":"What is retrieval augmented generation?","reference_summary":"Retrieval augmented generation retrieves relevant information from an external knowledge source and supplies it to a language model to help generate a grounded answer."}

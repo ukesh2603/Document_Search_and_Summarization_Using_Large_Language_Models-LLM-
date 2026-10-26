@@ -1,0 +1,118 @@
+{
+  "number_of_queries": 2,
+  "average_rouge_f1": {
+    "rouge1": 0.246,
+    "rouge2": 0.0853,
+    "rougeL": 0.1614
+  },
+  "individual_results": [
+    {
+      "query": "What is machine learning?",
+      "reference_summary": "Machine learning is a branch of artificial intelligence that enables systems to learn patterns from data and use them to make predictions or decisions.",
+      "generated_summary": "What is machine learning?\n\nMachine learning is the study of programs that can improve their performance on a given task automatically. It has been a part of Artificial Intelligence (AI) from the beginning [S2]. There are several kinds of machine learning, including unsupervised learning, supervised learning, and reinforcement learning [S1]. Machine learning can be used to analyze data, find patterns, and make predictions without any other guidance [S2]. It can also be used to design toxic molecules, predict the behavior of travelers, and optimize smartphone performance [S4].\n\nIn summary, machine learning is a type of AI that enables programs to improve their performance on a given task without being explicitly programmed. It involves various types of learning, including unsupervised, supervised, and reinforcement learning.",
+      "rouge": {
+        "rouge1": {
+          "precision": 0.1545,
+          "recall": 0.7917,
+          "f1": 0.2585
+        },
+        "rouge2": {
+          "precision": 0.0574,
+          "recall": 0.3043,
+          "f1": 0.0966
+        },
+        "rougeL": {
+          "precision": 0.1057,
+          "recall": 0.5417,
+          "f1": 0.1769
+        }
+      },
+      "sources": [
+        {
+          "source_id": "S1",
+          "title": "Artificial intelligence",
+          "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+          "chunk_id": "Artificial_intelligence_10"
+        },
+        {
+          "source_id": "S2",
+          "title": "Artificial intelligence",
+          "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+          "chunk_id": "Artificial_intelligence_9"
+        },
+        {
+          "source_id": "S3",
+          "title": "Artificial intelligence",
+          "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+          "chunk_id": "Artificial_intelligence_61"
+        },
+        {
+          "source_id": "S4",
+          "title": "Machine learning",
+          "url": "https://en.wikipedia.org/wiki/Machine_learning",
+          "chunk_id": "Machine_learning_53"
+        },
+        {
+          "source_id": "S5",
+          "title": "Outline of natural language processing",
+          "url": "https://en.wikipedia.org/wiki/Outline_of_natural_language_processing",
+          "chunk_id": "Outline_of_natural_language_processing_25"
+        }
+      ]
+    },
+    {
+      "query": "What is retrieval augmented generation?",
+      "reference_summary": "Retrieval augmented generation retrieves relevant information from an external knowledge source and supplies it to a language model to help generate a grounded answer.",
+      "generated_summary": "What is retrieval augmented generation?\n\nRetrieval-augmented generation (RAG) is an approach that integrates large language models (LLMs) with document retrieval systems. Given a query, a document retriever is called to retrieve the most relevant documents, which are then used to generate an output based on both the query and the context included from the retrieved documents [S1]. This technique enhances LLMs by incorporating an information-retrieval mechanism that allows models to access and utilize additional data beyond their original training set [S3]. RAG can be used on unstructured, semi-structured, or structured data, and the retrieved documents are converted into LLM embeddings, which are then stored in a vector database [S3, S4].",
+      "rouge": {
+        "rouge1": {
+          "precision": 0.1416,
+          "recall": 0.6667,
+          "f1": 0.2336
+        },
+        "rouge2": {
+          "precision": 0.0446,
+          "recall": 0.2174,
+          "f1": 0.0741
+        },
+        "rougeL": {
+          "precision": 0.0885,
+          "recall": 0.4167,
+          "f1": 0.146
+        }
+      },
+      "sources": [
+        {
+          "source_id": "S1",
+          "title": "Large language model",
+          "url": "https://en.wikipedia.org/wiki/Large_language_model",
+          "chunk_id": "Large_language_model_18"
+        },
+        {
+          "source_id": "S2",
+          "title": "Prompt engineering",
+          "url": "https://en.wikipedia.org/wiki/Prompt_engineering",
+          "chunk_id": "Prompt_engineering_15"
+        },
+        {
+          "source_id": "S3",
+          "title": "Retrieval-augmented generation",
+          "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+          "chunk_id": "Retrieval-augmented_generation_4"
+        },
+        {
+          "source_id": "S4",
+          "title": "Vector database",
+          "url": "https://en.wikipedia.org/wiki/Vector_database",
+          "chunk_id": "Vector_database_2"
+        },
+        {
+          "source_id": "S5",
+          "title": "Generative engine optimization",
+          "url": "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+          "chunk_id": "Generative_engine_optimization_4"
+        }
+      ]
+    }
+  ]
+}

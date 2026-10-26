@@ -1,0 +1,28 @@
+A large language model (LLM) is a type of machine learning model designed for natural language processing tasks such as language generation. LLMs are language models with many parameters, and are trained with self-supervised learning on a vast amount of text.
+
+List
+For the training cost column, 1 petaFLOP-day equals 1 petaFLOP/sec × 1 day, or 8.64×1019 FLOP (floating point operations). Only the cost of the largest model is shown. The number of parameters is measured in billions, and the training cost is measured in petaFLOP-days.
+
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+See also
+Comparison of deep learning software
+Comparison of machine learning software
+List of AI-assisted software development tools
+List of chatbots
+List of language model benchmarks
+OpenRouter – LLM gateway to multiple AI providers
+Open weights
+Small language model
+
+Notes
+
+
+== References ==
