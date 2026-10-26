@@ -1,0 +1,11 @@
+streamlit
+chromadb
+sentence-transformers
+rank-bm25
+langchain
+langchain-ollama
+ollama
+numpy
+pandas
+scikit-learn
+rouge-score
